@@ -1,0 +1,17 @@
+.nav {
+    background-color: black !important;
+}
+
+.scroll {
+    top: 60px;
+    background-color: blueviolet;
+    height: 5px;
+}
+
+@media screen and (max-width: 414px) {
+
+    .scroll {
+        top: 95px;
+    }
+
+}

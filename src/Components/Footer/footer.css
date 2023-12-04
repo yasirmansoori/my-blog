@@ -1,0 +1,30 @@
+.footer {
+    padding: 1rem;
+    background-color: rgb(235, 195, 64);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.o {
+    background-color: rgb(255, 81, 0);
+    height: 20px;
+}
+
+.w {
+    background-color: white;
+}
+
+.g {
+    background-color: green;
+    height: 20px;
+}

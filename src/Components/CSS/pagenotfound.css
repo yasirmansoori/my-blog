@@ -1,0 +1,44 @@
+.Body img {
+    width: max-content;
+    border-radius: 0;
+}
+
+.Body div {
+    margin-top: 7%;
+    color: #4a5d73;
+}
+
+.Body div h1 {
+    font-size: 10.5rem;
+    font-weight: bold;
+    font-family: math;
+}
+
+.Body div a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.Body div a:hover {
+    color: white;
+}
+
+.Body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 576px) {
+    .Body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Body img {
+        display: none;
+    }
+}

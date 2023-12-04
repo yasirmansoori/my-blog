@@ -1,0 +1,20 @@
+html {
+    scrollbar-width: normal;
+    scrollbar-color: red;
+}
+
+html::-webkit-scrollbar {
+    width: 0.5vw;
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: #1a314b;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+    background-color: #0e1a28;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: black;
+}

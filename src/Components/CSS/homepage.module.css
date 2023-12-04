@@ -1,0 +1,102 @@
+/* General styles */
+.homepage {
+    background-color: #0c0c0d;
+}
+
+.displayCard img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 10px 0px;
+}
+
+.sidebar {
+    height: fit-content;
+}
+
+/* Card grid styles */
+.allCards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 40px;
+    column-gap: 50px;
+}
+
+/* Individual card styles */
+.card {
+    border: 1px solid #0c0c0d;
+    border-radius: 11px 11px 15px 15px;
+    box-shadow: rgba(81, 0, 135, 0.4) 0px 54px 55px, rgba(81, 0, 135, 0.12) 0px -12px 30px, rgba(81, 0, 135, 0.12) 0px 4px 6px, rgba(81, 0, 135, 0.16) 0px 12px 13px, rgba(81, 0, 135, 0.09) 0px -3px 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Card content styles */
+.card:hover {
+    box-shadow: rgba(81, 0, 135, 0.2) 0px 54px 55px, rgba(81, 0, 135, 0.06) 0px -12px 30px, rgba(81, 0, 135, 0.06) 0px 4px 6px, rgba(81, 0, 135, 0.08) 0px 12px 13px, rgba(81, 0, 135, 0.045) 0px -3px 5px;
+    transform: scale(1.05);
+}
+
+.card img {
+    margin: 0px;
+    height: 100%;
+}
+
+.cardBody {
+    padding: 0.7rem;
+    background-color: #001a2c;
+    color: antiquewhite;
+}
+
+
+.cardText {
+    font-size: 20px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 992px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .allCards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .displayCard {
+        flex-direction: column !important;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main {
+        padding: 15px !important;
+
+    }
+
+    .section {
+        padding: 20px !important;
+    }
+
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .main {
+        padding: 20px;
+        /* margin-top: 95px !important; */
+    }
+
+    p img {
+        display: none;
+    }
+
+    .section {
+        padding: 20px !important;
+    }
+}
